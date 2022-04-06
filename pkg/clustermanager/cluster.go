@@ -74,7 +74,7 @@ func (manager *Manager) Cluster() Cluster {
 		IsolatedEtcd:      manager.isolatedEtcd,
 		CloudInitFile:     manager.cloudInitFile,
 		NodeCIDR:          manager.clusterProvider.GetNodeCidr(),
-		KubernetesVersion: "1.19.2",
+		KubernetesVersion: "1.21.9",
 	}
 }
 
